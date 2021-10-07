@@ -67,6 +67,7 @@ namespace DBUserInfo
             this.loadStudentCount = new System.Windows.Forms.Label();
             this.autoStudentLoad = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -403,6 +404,7 @@ namespace DBUserInfo
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.button2);
             this.groupBox4.Controls.Add(this.button1);
             this.groupBox4.Controls.Add(this.loadStudentCount);
             this.groupBox4.Controls.Add(this.autoStudentLoad);
@@ -441,6 +443,15 @@ namespace DBUserInfo
             this.button1.TabIndex = 2;
             this.button1.Text = "push";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(313, 64);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // form1
             // 
@@ -506,6 +517,7 @@ namespace DBUserInfo
         private System.Windows.Forms.CheckBox autoStudentLoad;
         private System.Windows.Forms.Label loadStudentCount;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
