@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUserInfo", "DBUserInfo.csproj", "{6C695CF9-751D-4876-81CB-4AA04FD01298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketBrowser", "..\MarketBrowser\MarketBrowser.csproj", "{66AE9012-DFCA-4070-804D-768CCE52E727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C695CF9-751D-4876-81CB-4AA04FD01298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C695CF9-751D-4876-81CB-4AA04FD01298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C695CF9-751D-4876-81CB-4AA04FD01298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C695CF9-751D-4876-81CB-4AA04FD01298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AE9012-DFCA-4070-804D-768CCE52E727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AE9012-DFCA-4070-804D-768CCE52E727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AE9012-DFCA-4070-804D-768CCE52E727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AE9012-DFCA-4070-804D-768CCE52E727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FC9C75B-B97B-443C-8DE1-5BD7A4408E8E}
+	EndGlobalSection
+EndGlobal
