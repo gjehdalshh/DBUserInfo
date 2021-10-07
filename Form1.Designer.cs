@@ -66,6 +66,7 @@ namespace DBUserInfo
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.loadStudentCount = new System.Windows.Forms.Label();
             this.autoStudentLoad = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -402,6 +403,7 @@ namespace DBUserInfo
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.button1);
             this.groupBox4.Controls.Add(this.loadStudentCount);
             this.groupBox4.Controls.Add(this.autoStudentLoad);
             this.groupBox4.Location = new System.Drawing.Point(292, 12);
@@ -430,6 +432,15 @@ namespace DBUserInfo
             this.autoStudentLoad.Text = "프로그램 시작시 자동으로 학생정보 로드";
             this.autoStudentLoad.UseVisualStyleBackColor = true;
             this.autoStudentLoad.CheckedChanged += new System.EventHandler(this.autoStudentLoad_CheckedChanged);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(379, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 54);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "push";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // form1
             // 
@@ -494,6 +505,7 @@ namespace DBUserInfo
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.CheckBox autoStudentLoad;
         private System.Windows.Forms.Label loadStudentCount;
+        private System.Windows.Forms.Button button1;
     }
 }
 
