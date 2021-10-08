@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUserInfo", "DBUserInfo.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketBrowser", "..\MarketBrowser\MarketBrowser.csproj", "{66AE9012-DFCA-4070-804D-768CCE52E727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gitCollabo", "..\gitCollabo\gitCollabo.csproj", "{4D160CDC-8D17-4B8C-B8D0-4BE6357253E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{66AE9012-DFCA-4070-804D-768CCE52E727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66AE9012-DFCA-4070-804D-768CCE52E727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66AE9012-DFCA-4070-804D-768CCE52E727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D160CDC-8D17-4B8C-B8D0-4BE6357253E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D160CDC-8D17-4B8C-B8D0-4BE6357253E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D160CDC-8D17-4B8C-B8D0-4BE6357253E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D160CDC-8D17-4B8C-B8D0-4BE6357253E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
